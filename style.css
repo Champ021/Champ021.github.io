@@ -1,0 +1,83 @@
+html{
+	font-family: arial;
+}
+
+header{
+	background-image: url(becca-tapert-391584-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: -0.6%;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.btn{
+	margin: 1em 1.2em;
+	padding: 7px 7px;
+	width: 5em;
+	color: rgb(0, 0, 0);
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background-color: rgba(163, 163, 163, 0.5);
+	font-size: large;
+	text-decoration: none;
+	text-align: center;
+	transition: all 1s;
+}
+
+.btn:hover{
+	color: white;
+	background-color: rgba(80, 80, 80, 1.0);
+	cursor: pointer;
+}
+
+/*Starting page || CSS*/
+
+.textline{
+	color: white;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background-color: rgba(163, 163, 163, 0.7);
+	font-family: serif;
+	font-size: xx-large;
+	text-align: center;
+	transition: all 1s;
+}
+
+.textline:hover{
+	background-color: rgba(100, 100, 100, 1.0);
+}
+
+.register-btn{
+	display: inline;
+	margin-top: 10%;
+	width: 3em;
+	font-size: x-large;
+}
+.register-btn:hover{
+	transform: scale(1.2);
+	background-color: rgba(100, 100, 100, 1.0);
+}
+
+/*Register Form || CSS*/
+
+.forms-block{
+	padding: 0.5em 2em;
+	background-color: white;
+	border: 2px solid grey;
+}
+
+.forms-block form{
+	margin: 10px;
+
+}
+
+.forms-block form input{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
